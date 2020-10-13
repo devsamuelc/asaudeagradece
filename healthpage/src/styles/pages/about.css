@@ -54,3 +54,28 @@
     border: 1px solid #49883E;
     color: #49883E;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #49883E;
+    color: white;
+    min-width: auto;
+    justify-content: center;
+    transition: 400ms;
+}
+
+.dropdown:hover .dropdown-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    transition: 400ms;
+}
+
+.dropdown-content p {
+    border: none !important;
+    width: 100%;
+    border-radius: 0;
+    transition: 400ms;
+}

@@ -16,9 +16,9 @@ function Main(){
                         <div className="dropdown">
                             <p>Produtos</p>
                                 <div className="dropdown-content">
-                                    <Link to="" style={{ textDecoration: 'none' }}><p>Fitness</p></Link>
-                                    <Link to="" style={{ textDecoration: 'none' }}><p>Nutrição</p></Link>
-                                    <Link to="" style={{ textDecoration: 'none' }}><p>Ervas Medicinais</p></Link>
+                                    <Link to="/fitness" style={{ textDecoration: 'none' }}><p>Fitness</p></Link>
+                                    <Link to="/nutrition" style={{ textDecoration: 'none' }}><p>Nutrição</p></Link>
+                                    <Link to="/herbs" style={{ textDecoration: 'none' }}><p>Ervas Medicinais</p></Link>
                                 </div>
                         </div>
                         

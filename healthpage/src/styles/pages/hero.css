@@ -99,3 +99,7 @@
     border: 2px solid #49883E;
     transition: 600ms;
 }
+
+#page-landing .emailfield {
+    display: none;
+}

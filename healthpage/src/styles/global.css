@@ -24,3 +24,7 @@ body, input, button, textarea {
     color: black !important;
     background-color: #36632e !important;
 }
+
+p:hover {
+    cursor: default !important;
+}
