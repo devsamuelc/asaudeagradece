@@ -12,3 +12,15 @@ body {
 body, input, button, textarea {
     font: 400 18px 'Red Hat Text', sans-serif;
 }
+
+.selected {
+    background-color: #36632e;
+    color: black !important;
+    cursor: default;
+    border: none !important;
+}
+
+.selected:hover {
+    color: black !important;
+    background-color: #36632e !important;
+}

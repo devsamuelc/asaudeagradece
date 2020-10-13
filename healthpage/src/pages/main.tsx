@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/global.css'
 import '../styles/pages/main.css';
 
 import { Link } from 'react-router-dom';
@@ -10,9 +11,9 @@ function Main(){
                 <div className="nav-content">
                     <h1>E-Pastore</h1>
                     <div className="buttons">
-                        <Link to="" style={{ textDecoration: 'none' }}><p>Sobre</p></Link>
-                        <Link to="" style={{ textDecoration: 'none' }}><p>Contato</p></Link>
-                        <Link to="" style={{ textDecoration: 'none' }}><p>Produtos</p></Link>
+                        <Link to="/about" style={{ textDecoration: 'none' }}><p>Sobre</p></Link>
+                        <Link to="/contact" style={{ textDecoration: 'none' }}><p>Contato</p></Link>
+                        <Link to="/products" style={{ textDecoration: 'none' }}><p>Produtos</p></Link>
                     </div>
                 </div>
             </nav>
@@ -28,18 +29,18 @@ function Main(){
             <div id="categories">
                 <h1>CATEGORIAS</h1>
                 <div id="fitness-category">
-                    <Link to="" style={{ textDecoration: 'none' }}><p>Quero dicas, artigos e produtos sobre <span>Fitness</span></p></Link>
+                    <Link to="/fitness" style={{ textDecoration: 'none' }}><p>Quero dicas, artigos e produtos sobre <span>Fitness</span></p></Link>
                 </div>
                 <div id="nutrition-category">
-                    <Link to="" style={{ textDecoration: 'none' }}><p>Quero dicas, artigos e produtos sobre <span>Nutrição</span></p></Link>
+                    <Link to="/nutrition" style={{ textDecoration: 'none' }}><p>Quero dicas, artigos e produtos sobre <span>Nutrição</span></p></Link>
                 </div>
                 <div id="health-category">
-                    <Link to="" style={{ textDecoration: 'none' }}><p>Quero dicas, artigos e produtos sobre <span>Ervas Medicinais</span></p></Link>
+                    <Link to="/herbs" style={{ textDecoration: 'none' }}><p>Quero dicas, artigos e produtos sobre <span>Ervas Medicinais</span></p></Link>
                 </div>
             </div>
 
             <footer>
-                
+
             </footer>
         </div>
     )
