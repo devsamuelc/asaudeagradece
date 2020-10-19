@@ -79,3 +79,35 @@
     border-radius: 0;
     transition: 400ms;
 }
+
+#page-about .content {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)), url(../../imgs/plants.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    height: 83vh;
+}
+
+#page-about .content h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#page-about .content p {
+    padding: 20px 40px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#page-about .content h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
