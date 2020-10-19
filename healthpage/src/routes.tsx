@@ -8,6 +8,7 @@ import Nutrition from './pages/nutrition';
 import Herbs from './pages/herbs';
 import ContactPage from './pages/contact';
 import AboutPage from './pages/about';
+import Beauty from './pages/beauty';
 
 function Routes(){
     return(
@@ -19,6 +20,7 @@ function Routes(){
         <Route path="/nutrition" component={Nutrition}/>
         <Route path="/contact" component={ContactPage}/>
         <Route path="/about" component={AboutPage}/>
+        <Route path="/beauty" component={Beauty}/>
         </BrowserRouter>
     )
 }

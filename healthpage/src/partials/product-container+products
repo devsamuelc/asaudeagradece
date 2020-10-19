@@ -1,0 +1,12 @@
+<div id="product-container">
+                <div id="product">
+                    <h4>Product Name</h4>
+                    <a href=""><img src="" alt="" /></a>
+                    <p className="prod-description">Product description</p>
+                </div>
+                <div id="product">
+                    <h4>Product Name</h4>
+                    <a href=""><img src="" alt="" /></a>
+                    <p className="prod-description">Product description</p>
+                </div>
+            </div>

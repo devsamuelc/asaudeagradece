@@ -1,24 +1,24 @@
-#page-fitness {
+#page-beauty {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#page-fitness #cover {
+#page-beauty #cover {
     margin-top: 80px;
     display: flex;
     width: 100%;
     height: 200px;
     background: linear-gradient(
         rgba(0, 0, 0, 0.6), 
-        rgba(0, 0, 0, 0.6)), url(../../imgs/fitness.jpg) 100% no-repeat;
+        rgba(0, 0, 0, 0.6)), url(../../imgs/beauty.jfif) 100% no-repeat;
     background-size: cover;
     justify-content: center;
     align-items: center;
 }
 
-#page-fitness #cover .cover-content {
+#page-beauty #cover .cover-content {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -26,6 +26,6 @@
     line-height: 60px;
 }
 
-#page-fitness #cover .cover-content p {
+#page-beauty #cover .cover-content p {
     color: transparent;
 }

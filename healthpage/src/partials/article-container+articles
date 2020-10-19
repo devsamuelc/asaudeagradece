@@ -1,0 +1,17 @@
+<div id="article-container">
+                <div id="article">
+                    <h4>Article Name</h4>
+                    <a href=""><img src="" alt="" /></a>
+                    <p className="art-description">Article description</p>
+                </div>
+                <div id="article">
+                    <h4>Article Name</h4>
+                    <a href=""><img src="" alt="" /></a>
+                    <p className="art-description">Article description</p>
+                </div>
+                <div id="article">
+                    <h4>Article Name</h4>
+                    <a href=""><img src="" alt="" /></a>
+                    <p className="art-description">Article description</p>
+                </div>
+            </div>

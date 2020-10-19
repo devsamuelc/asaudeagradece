@@ -16,10 +16,11 @@ function Nutrition(){
                         <Link to="/contact" style={{ textDecoration: 'none' }}><p>Contato</p></Link>
                         <div className="dropdown">
                             <p>Produtos</p>
-                                <div className="dropdown-content">
+                            <div className="dropdown-content">
                                     <Link to="/fitness" style={{ textDecoration: 'none' }}><p>Fitness</p></Link>
                                     <Link to="/nutrition" style={{ textDecoration: 'none' }}><p>Nutrição</p></Link>
                                     <Link to="/herbs" style={{ textDecoration: 'none' }}><p>Ervas Medicinais</p></Link>
+                                    <Link to="/beauty" style={{ textDecoration: 'none' }}><p>Beleza e Estética</p></Link>
                                 </div>
                         </div>
                     </div>
@@ -33,49 +34,12 @@ function Nutrition(){
                 </div>
             </div>
 
-            <div id="content">
-                <h1>Artigos</h1>
-                <div className="articles">
-                    <div className="row">
-                        <div className="article">
-                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt=""/>
-                            <h5>Título</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed nunc sem. Phasellus vel ipsum eget lorem varius tincidunt. Nullam hendrerit libero eu quam facilisis, in venenatis quam rutrum.</p>
-                        </div>
-                        <div className="article">
-                            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt=""/>
-                            <h5>Título</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed nunc sem. Phasellus vel ipsum eget lorem varius tincidunt. Nullam hendrerit libero eu quam facilisis, in venenatis quam rutrum.</p>
-                        </div>
-                        <div className="article">
-                            <img src="https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80" alt=""/>
-                            <h5>Título</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed nunc sem. Phasellus vel ipsum eget lorem varius tincidunt. Nullam hendrerit libero eu quam facilisis, in venenatis quam rutrum.</p>
-                        </div>
-                    </div>
-                </div>
-                <h1>Produtos</h1>
-                <div className="products">
-                    <div className="row">
-                            <div className="article">
-                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt=""/>
-                                <h5>Título</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed nunc sem. Phasellus vel ipsum eget lorem varius tincidunt. Nullam hendrerit libero eu quam facilisis, in venenatis quam rutrum.</p>
-                            </div>
-                            <div className="article">
-                                <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt=""/>
-                                <h5>Título</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed nunc sem. Phasellus vel ipsum eget lorem varius tincidunt. Nullam hendrerit libero eu quam facilisis, in venenatis quam rutrum.</p>
-                            </div>
-                            <div className="article">
-                                <img src="https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80" alt=""/>
-                                <h5>Título</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed nunc sem. Phasellus vel ipsum eget lorem varius tincidunt. Nullam hendrerit libero eu quam facilisis, in venenatis quam rutrum.</p>
-                            </div>
-                    </div>
-                </div>
-                
-            </div>
+            <h1 className="session-title">Produtos</h1>
+           
+
+           <h1 className="session-title">Artigos</h1>
+           
+            
         </div>
     );
 }

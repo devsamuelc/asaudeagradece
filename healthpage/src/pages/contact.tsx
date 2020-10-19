@@ -17,10 +17,11 @@ function ContactPage(){
                         <Link to="/contact" style={{ textDecoration: 'none' }}><p className="selected">Contato</p></Link>
                         <div className="dropdown">
                             <p>Produtos</p>
-                                <div className="dropdown-content">
-                                    <Link to="" style={{ textDecoration: 'none' }}><p>Fitness</p></Link>
-                                    <Link to="" style={{ textDecoration: 'none' }}><p>Nutrição</p></Link>
-                                    <Link to="" style={{ textDecoration: 'none' }}><p>Ervas Medicinais</p></Link>
+                            <div className="dropdown-content">
+                                    <Link to="/fitness" style={{ textDecoration: 'none' }}><p>Fitness</p></Link>
+                                    <Link to="/nutrition" style={{ textDecoration: 'none' }}><p>Nutrição</p></Link>
+                                    <Link to="/herbs" style={{ textDecoration: 'none' }}><p>Ervas Medicinais</p></Link>
+                                    <Link to="/beauty" style={{ textDecoration: 'none' }}><p>Beleza e Estética</p></Link>
                                 </div>
                         </div>
                     </div>

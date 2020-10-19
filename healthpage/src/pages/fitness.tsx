@@ -21,6 +21,7 @@ function Fitness(){
                                     <Link to="/fitness" style={{ textDecoration: 'none' }}><p>Fitness</p></Link>
                                     <Link to="/nutrition" style={{ textDecoration: 'none' }}><p>Nutrição</p></Link>
                                     <Link to="/herbs" style={{ textDecoration: 'none' }}><p>Ervas Medicinais</p></Link>
+                                    <Link to="/beauty" style={{ textDecoration: 'none' }}><p>Beleza e Estética</p></Link>
                                 </div>
                         </div>
                     </div>
@@ -33,48 +34,35 @@ function Fitness(){
                         <p> </p>
                 </div>
             </div>
+           
+            <h1 className="session-title">Produtos</h1>
+           <div id="product-container">
+                <div id="product">
+                    <h4>Xtreme Fit</h4>
+                    <a href="http://makepages.com.br/r/AKS9260909?u=c&pl=NZ68690"><img src="https://corpinholindo.com/wp-content/uploads/2020/06/XTREME-FIT-Funciona-Bula-Composi%C3%A7%C3%A3o-F%C3%B3rmula-Ingredientes-pre%C3%A7o-Comprar.png" alt="" /></a>
+                    <p className="prod-description">O Xtreme Fit é um produto eficaz, seguro e 100% natural que consegue te ajudar a emagrecer de uma vez por todas. O Xtreme fit garante um emagrecimento totalmente saudável, sem receitas médicas e sem riscos à saúde, oferecendo um emagrecimento definitivo.</p>
+                </div>
+                <div id="product">
+                    <h4>Detox Caps</h4>
+                    <a href="http://makepages.com.br/r/ADE8730931"><img src="https://detoxcaps.com.br/wp-content/uploads/2020/03/030303.png" alt="" /></a>
+                    <p className="prod-description">O Detox Caps ajuda no emagrecimento reduzindo o apetite, aumentando a disposição e eliminando a retenção líquida do corpo, proporcionando resultados visíveis e duradouros.</p>
+                </div>
+            </div>
+            <div id="product-container">
+                <div id="product">
+                    <h4>Sinedrol</h4>
+                    <a href="http://makepages.com.br/r/ABQ11196298"><img src="https://arscientia.com.br/wp-content/uploads/2020/01/sinedrol.jpg" alt="" /></a>
+                    <p className="prod-description">O Sinedro é um suplemento encapsulado de alta tecnologia e performance. Uma fórmula exclusiva com grandes benefícios no ganho de massa magra, emagrecimento, força e definição além de outros benefícios a saúde.</p>
+                </div>
+                <div id="product">
+                    <h4>Sibutina</h4>
+                    <a href="https://www.makepages.com.br/r/AXC11198354"><img src="https://s3-sa-east-1.amazonaws.com/monetizzeappbr/img/fotos/121947/1dcb528cb16d7bafc94a3927e68b58e6.png" alt="" /></a>
+                    <p className="prod-description">A Sibutina é uma fórmula que auxilia no rápido emagrecimento e eliminação de gordura profunda.</p>
+                </div>
+            </div>
 
-            <div id="content">
-                <h1>Artigos</h1>
-                <div className="articles">
-                    <div className="row">
-                        <div className="article">
-                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt=""/>
-                            <h5>Título</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed nunc sem. Phasellus vel ipsum eget lorem varius tincidunt. Nullam hendrerit libero eu quam facilisis, in venenatis quam rutrum.</p>
-                        </div>
-                        <div className="article">
-                            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt=""/>
-                            <h5>Título</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed nunc sem. Phasellus vel ipsum eget lorem varius tincidunt. Nullam hendrerit libero eu quam facilisis, in venenatis quam rutrum.</p>
-                        </div>
-                        <div className="article">
-                            <img src="https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80" alt=""/>
-                            <h5>Título</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed nunc sem. Phasellus vel ipsum eget lorem varius tincidunt. Nullam hendrerit libero eu quam facilisis, in venenatis quam rutrum.</p>
-                        </div>
-                    </div>
-                </div>
-                <h1>Produtos</h1>
-                <div className="products">
-                    <div className="row">
-                            <div className="article">
-                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt=""/>
-                                <h5>Título</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed nunc sem. Phasellus vel ipsum eget lorem varius tincidunt. Nullam hendrerit libero eu quam facilisis, in venenatis quam rutrum.</p>
-                            </div>
-                            <div className="article">
-                                <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt=""/>
-                                <h5>Título</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed nunc sem. Phasellus vel ipsum eget lorem varius tincidunt. Nullam hendrerit libero eu quam facilisis, in venenatis quam rutrum.</p>
-                            </div>
-                            <div className="article">
-                                <img src="https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80" alt=""/>
-                                <h5>Título</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed nunc sem. Phasellus vel ipsum eget lorem varius tincidunt. Nullam hendrerit libero eu quam facilisis, in venenatis quam rutrum.</p>
-                            </div>
-                    </div>
-                </div>
+           <h1 className="session-title">Artigos</h1>
+           <div id="article-container">
                 
             </div>
         </div>
