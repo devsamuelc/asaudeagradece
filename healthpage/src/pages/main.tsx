@@ -13,7 +13,7 @@ function Main(){
                     <div className="buttons">
                         <Link to="/main" style={{ textDecoration: 'none' }}><p className="selected">Categorias</p></Link>
                         <Link to="/about" style={{ textDecoration: 'none' }}><p>Sobre</p></Link>
-                        <Link to="/contact" style={{ textDecoration: 'none' }}><p>Contato</p></Link>
+                        {/*<Link to="/contact" style={{ textDecoration: 'none' }}><p>Contato</p></Link>*/}
                         <div className="dropdown">
                             <p>Produtos</p>
                             <div className="dropdown-content">

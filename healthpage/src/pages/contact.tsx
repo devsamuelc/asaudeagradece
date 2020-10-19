@@ -14,7 +14,7 @@ function ContactPage(){
                     <div className="buttons">
                         <Link to="/main" style={{ textDecoration: 'none' }}><p>Categorias</p></Link>
                         <Link to="/about" style={{ textDecoration: 'none' }}><p>Sobre</p></Link>
-                        <Link to="/contact" style={{ textDecoration: 'none' }}><p className="selected">Contato</p></Link>
+                        {/*<Link to="/contact" style={{ textDecoration: 'none' }}><p className="selected">Contato</p></Link>*/}
                         <div className="dropdown">
                             <p>Produtos</p>
                             <div className="dropdown-content">
