@@ -1,3 +1,10 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
 #main-page {
     display: flex;
     flex-direction: column;
@@ -83,8 +90,9 @@
 
 #main-page #categories #category p {
     color: white;
-    font-size: 2.5vw;
+    font-size: 30px;
     border: 1px solid white;
+    text-align: center;
     padding: 2vh 3vw;
     border-radius: 16px;
     font-family: 'Red Hat Display', sans-serif;
@@ -117,4 +125,12 @@
     background: linear-gradient(
         rgba(0, 0, 0, 0.6), 
         rgba(0, 0, 0, 0.6)), url(../../imgs/beauty.jfif) 90% no-repeat;
+}
+
+@media (max-width: 768px){
+    #main-page #categories #category p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 30px;
+    }
 }
