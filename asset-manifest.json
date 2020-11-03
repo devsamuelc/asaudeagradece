@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/healthpg/static/css/main.8bc863e0.chunk.css",
+    "main.js": "/healthpg/static/js/main.f74eb92a.chunk.js",
+    "main.js.map": "/healthpg/static/js/main.f74eb92a.chunk.js.map",
+    "runtime-main.js": "/healthpg/static/js/runtime-main.2035d4c4.js",
+    "runtime-main.js.map": "/healthpg/static/js/runtime-main.2035d4c4.js.map",
+    "static/js/2.9aac3aef.chunk.js": "/healthpg/static/js/2.9aac3aef.chunk.js",
+    "static/js/2.9aac3aef.chunk.js.map": "/healthpg/static/js/2.9aac3aef.chunk.js.map",
+    "index.html": "/healthpg/index.html",
+    "static/css/main.8bc863e0.chunk.css.map": "/healthpg/static/css/main.8bc863e0.chunk.css.map",
+    "static/js/2.9aac3aef.chunk.js.LICENSE.txt": "/healthpg/static/js/2.9aac3aef.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/healthpg/static/media/nutricao.9e657e48.jpg",
+    "static/media/about.css": "/healthpg/static/media/plants.61903856.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2035d4c4.js",
+    "static/js/2.9aac3aef.chunk.js",
+    "static/css/main.8bc863e0.chunk.css",
+    "static/js/main.f74eb92a.chunk.js"
+  ]
+}
