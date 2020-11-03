@@ -22,9 +22,9 @@ function Main(){
                 <div id="category" className="fitness-cat">
                     <Link to="/fitness" style={{ textDecoration: 'none' }}><p>Quero produtos sobre <span>Fitness</span></p></Link>
                 </div>
-                <div id="category" className="nutrition-cat">
+                {/*<div id="category" className="nutrition-cat">
                     <Link to="/nutrition" style={{ textDecoration: 'none' }}><p>Quero produtos sobre <span>Nutrição</span></p></Link>
-                </div>
+                </div>*/}
                 <div id="category" className="herbs-cat">
                     <Link to="/herbs" style={{ textDecoration: 'none' }}><p>Quero produtos sobre <span>Ervas Medicinais</span></p></Link>
                 </div>
