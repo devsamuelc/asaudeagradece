@@ -14,11 +14,7 @@ function Hero(){
                 <Link to="/main" style={{ textDecoration: 'none' }}><h3>Entrar</h3></Link>
             </div>
 
-            <div className="emailfield">
-                <h2>Para receber atualizações, digite seu e-mail!</h2>
-                <p>Não enviaremos spam!</p>
-                <input type="email" name="" id="emailinput"/>
-            </div>
+
             
         </div>
 
