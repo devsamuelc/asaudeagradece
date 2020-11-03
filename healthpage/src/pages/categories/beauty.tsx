@@ -3,8 +3,6 @@ import React from 'react';
 import '../../styles/global.css'
 import '../../styles/pages/categories.css';
 
-import { Link } from 'react-router-dom';
-
 function Beauty(){
     return (
         <div id="category-page">  

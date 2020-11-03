@@ -20,16 +20,16 @@ function Main(){
             <div id="categories">
                 <h1>CATEGORIAS</h1>
                 <div id="category" className="fitness-cat">
-                    <Link to="/fitness" style={{ textDecoration: 'none' }}><p>Quero dicas, artigos e produtos sobre <span>Fitness</span></p></Link>
+                    <Link to="/fitness" style={{ textDecoration: 'none' }}><p>Quero produtos sobre <span>Fitness</span></p></Link>
                 </div>
                 <div id="category" className="nutrition-cat">
-                    <Link to="/nutrition" style={{ textDecoration: 'none' }}><p>Quero dicas, artigos e produtos sobre <span>Nutrição</span></p></Link>
+                    <Link to="/nutrition" style={{ textDecoration: 'none' }}><p>Quero produtos sobre <span>Nutrição</span></p></Link>
                 </div>
                 <div id="category" className="herbs-cat">
-                    <Link to="/herbs" style={{ textDecoration: 'none' }}><p>Quero dicas, artigos e produtos sobre <span>Ervas Medicinais</span></p></Link>
+                    <Link to="/herbs" style={{ textDecoration: 'none' }}><p>Quero produtos sobre <span>Ervas Medicinais</span></p></Link>
                 </div>
                 <div id="category" className="beauty-cat">
-                    <Link to="/beauty" style={{ textDecoration: 'none' }}><p>Quero dicas, artigos e produtos sobre <span>Beleza e Estética</span></p></Link>
+                    <Link to="/beauty" style={{ textDecoration: 'none' }}><p>Quero produtos sobre <span>Beleza e Estética</span></p></Link>
                 </div>
             </div>
 
