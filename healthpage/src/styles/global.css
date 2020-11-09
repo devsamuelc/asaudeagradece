@@ -64,6 +64,18 @@ nav .nav-content .buttons p:hover {
     color: #49883E;
 }
 
+nav .nav-content #arrowMenu {
+    display: none;
+}
+
+nav .nav-content #arrowMenu ul .dropDOne {
+    display: none;
+}
+
+nav .nav-content #arrowMenu ul .dropDTwo {
+    display: none;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -128,4 +140,20 @@ nav .nav-content .buttons p:hover {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+@media (max-width: 768px){
+
+    nav .nav-content .buttons {
+        display: none;
+        flex-direction: column;
+        width: 15vw;
+        height: 10vh;
+    }
+
+    nav .nav-content #arrowMenu {
+        display: flex;  
+        color: black;
+        padding: 20px;
+    }
 }

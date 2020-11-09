@@ -13,7 +13,7 @@ function Main(){
                     <h1>A SAÚDE AGRADECE</h1>
                     <h5>O seu blog de dicas, informações e conhecimento geral sobre saúde e qualidade de vida.</h5>
                     <h5>Confira nossos produtos.</h5>
-                    <Link to="/about" style={{ textDecoration: 'none' }}><p>Ver mais</p></Link>
+                    <Link to="/about" style={{ textDecoration: 'none' }}><p>Saiba mais</p></Link>
                 </div>
             </div>
 

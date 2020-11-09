@@ -4,6 +4,7 @@ import '../styles/global.css';
 import { Link } from 'react-router-dom';
 import { FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
 
+
 function Footer(){
     return(
         <div id="footer">

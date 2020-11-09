@@ -8,11 +8,11 @@ import Herbs from './pages/categories/herbs';
 import AboutPage from './pages/about';
 import Beauty from './pages/categories/beauty';
 
-function Routes(){
+export default function Routes(){
     return(
 
             <Switch>
-              <Route path="/asaudeagradece" exact component={Hero} />
+              <Route exact path="/" component={Hero} />
               <Route path="/main" component={Main} />
               <Route path="/fitness" component={Fitness} />
               <Route path="/herbs" component={Herbs} />
@@ -21,5 +21,3 @@ function Routes(){
             </Switch>
     )
 }
-
-export default Routes;

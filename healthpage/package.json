@@ -2,7 +2,7 @@
   "name": "healthpage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://devsamuelc.github.io/asaudeagradece",
+  "homepage": "https://asaudeagradece.com.br/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

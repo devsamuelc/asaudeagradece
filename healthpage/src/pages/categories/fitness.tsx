@@ -37,6 +37,18 @@ function Fitness(){
                     <p className="prod-description">O Sinedro é um suplemento encapsulado de alta tecnologia e performance. Uma fórmula exclusiva com grandes benefícios no ganho de massa magra, emagrecimento, força e definição além de outros benefícios a saúde.</p>
                 </div>
             </div>
+            <div id="product-container">
+                <div id="product">
+                    <h4>Adesivo Detox</h4>
+                    <a href="https://mon.net.br/11esvn"><img src="https://adesivodetox.com.br/wp-content/uploads/2020/07/54ae0-25972-e1580385341982.jpg" alt=""/></a>
+                    <p className="prod-description">O Adesivo Detox auxilia na remoção de toxinas do corpo, promovendo alívio de estresse e emagrecimento saudável e sustentável.</p>
+                </div>
+                <div id="product">
+                    <h4>Anadrole</h4>
+                    <a href="http://mon.net.br/10j2f1"><img src="https://miro.medium.com/max/1200/1*XpOYKRcM4WOGvLPz5RPaTw.png" alt=""/></a>
+                    <p className="prod-description">O suplemento mais vendido do brasil entre quem deseja construir força e busca um corpo mais musculoso e estético. Ele entrega resultados incríveis usando uma fórmula exclusiva. Dura duas vezes mais do que os concorrentes pelo numero maior de cápsulas e tem um efeito mais potente.</p>
+                </div>
+            </div>
         </div>
     );
 }

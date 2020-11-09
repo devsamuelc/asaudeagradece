@@ -76,9 +76,9 @@
     width: 40%;
     margin: 15px;
     height: 380px;
-    border: 1px solid #cccccc;
     border-radius: 8px;
     transition: 400ms;
+    box-shadow: 1px 8px 40px #dfdfdf;
 }
 
 #article {
@@ -129,13 +129,7 @@ a {
     background-color: #f0f0f5;
 }
 
-@media (max-width: 768px){
-    nav .nav-content .buttons {
-        display: none;
-        flex-direction: column;
-        width: 15vw;
-        height: 10vh;
-    }
+@media (max-width: 768px){ 
 
     img {
         width: 100%;
