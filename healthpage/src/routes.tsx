@@ -7,6 +7,7 @@ import Fitness from './pages/categories/fitness';
 import Herbs from './pages/categories/herbs';
 import AboutPage from './pages/about';
 import Beauty from './pages/categories/beauty';
+import Nutrition from './pages/categories/nutrition';
 
 export default function Routes(){
     return(
@@ -15,6 +16,7 @@ export default function Routes(){
               <Route exact path="/" component={Hero} />
               <Route path="/main" component={Main} />
               <Route path="/fitness" component={Fitness} />
+              <Route path="/nutrition" component={Nutrition} />
               <Route path="/herbs" component={Herbs} />
               <Route path="/about" component={AboutPage} />
               <Route path="/beauty" component={Beauty} />

@@ -141,19 +141,3 @@ nav .nav-content #arrowMenu ul .dropDTwo {
 ::-webkit-scrollbar {
     display: none;
 }
-
-@media (max-width: 768px){
-
-    nav .nav-content .buttons {
-        display: none;
-        flex-direction: column;
-        width: 15vw;
-        height: 10vh;
-    }
-
-    nav .nav-content #arrowMenu {
-        display: flex;  
-        color: black;
-        padding: 20px;
-    }
-}
