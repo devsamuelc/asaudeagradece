@@ -15,7 +15,7 @@ export default function Routes(){
             <Switch>
               <Route exact path="/" component={Hero} />
               <Route path="/main" component={Main} />
-              <Route path="/fitness" component={Fitness} />
+              <Route path="/fitness" component={Fitness} /> 
               <Route path="/nutrition" component={Nutrition} />
               <Route path="/herbs" component={Herbs} />
               <Route path="/about" component={AboutPage} />

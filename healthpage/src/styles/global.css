@@ -13,104 +13,23 @@ body, input, button, textarea {
     font: 400 18px 'Red Hat Text', sans-serif;
 }
 
-nav {
-    background-color: #49883E;
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+.dropd-item a {
+    color: #518b46;
+}
+
+.bg-dark {
+    background-color: #49883E !important;
     height: auto;
-    justify-content: center;
-    align-items: center;
 }
 
-nav .nav-content {
-    display: flex;
-    flex: 1;
-    width: 100%;
-    max-width: 75%;
-    height: 80px;
-    align-items: center;
-    justify-content: space-between;
+.nav-link {
+    color: white !important;
 }
 
-nav .nav-content h1 {
-    font-size: 3vw;
+.navbar-brand a {
     font-family: 'Montserrat', sans-serif;
-}
-
-nav .nav-content .buttons {
-    display: flex;
-    width: 100%;
-    max-width: fit-content;
-    justify-content: center;
-    font-family: 'Red Hat Text', sans-serif;
-}
-
-nav .nav-content .buttons p {
-    color: white;
-    font-weight: 500;
-    padding: 1vh 2vw;
-    border: 1px solid #f0f0f5;
-    border-radius: 16px;
-    font-family: 'Red Hat Text', sans-serif;
-    transition: 400ms;
-}
-
-nav .nav-content .buttons p:hover {
-    background: white;
-    border: 1px solid #49883E;
-    color: #49883E;
-}
-
-nav .nav-content #arrowMenu {
-    display: none;
-}
-
-nav .nav-content #arrowMenu ul .dropDOne {
-    display: none;
-}
-
-nav .nav-content #arrowMenu ul .dropDTwo {
-    display: none;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #49883E;
-    color: white;
-    min-width: auto;
-    justify-content: center;
-    transition: 400ms;
-}
-
-.dropdown:hover .dropdown-content {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    transition: 400ms;
-}
-
-.dropdown-content p {
-    border: none !important;
-    width: 100%;
-    border-radius: 0;
-    transition: 400ms;
-}
-
-.selected {
-    background-color: #36632e;
-    color: black !important;
-    cursor: default;
-    border: none !important;
-}
-
-.selected:hover {
-    color: black !important;
-    background-color: #36632e !important;
+    color: white !important;
+    font-size: 40px;
 }
 
 .session-title {
@@ -140,4 +59,10 @@ nav .nav-content #arrowMenu ul .dropDTwo {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+@media (max-width: 320px) {
+    .navbar-brand a {
+        font-size: 30px;
+    }
 }

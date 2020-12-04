@@ -13,7 +13,6 @@ html {
 }
 
 #main-page #cover {
-    margin-top: 80px;
     display: flex;
     width: 100%;
     height: 400px;
@@ -51,6 +50,7 @@ html {
     font-size: 22px;
     text-transform: uppercase;
     font-weight: 600;
+    margin: 0;
 }
 
 #main-page #cover .cover-content a {
@@ -72,6 +72,7 @@ html {
 
 #main-page #categories {
     display: flex;
+    margin: 80px 0;
     flex-direction: column;
     width: 100%;
     max-width: 70vw;
@@ -136,6 +137,12 @@ html {
         rgba(0, 0, 0, 0.6)), url(../../imgs/beauty.jfif) 90% no-repeat;
 }
 
+@media (min-width: 2480px) {
+    #main-page #cover .cover-content h1{
+        font-size: 60px;
+    }
+}
+
 @media (max-width: 768px){
     #main-page #categories #category p {
         font-size: 16px;
@@ -153,15 +160,39 @@ html {
 @media (max-width: 768px){
     #main-page #cover .cover-content p {
         font-size: 14px;
+        margin: 0
+    }
+
+    #main-page #cover .cover-content a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 @media (max-width: 426px){
-    #main-page #cover .cover-content p {
-        font-size: 8px;
-    }
-
     #main-page #cover .cover-content {
         line-height: 40px;
+
+    }
+
+    #main-page #cover .cover-content h5 {
+        font-size: 14px;
+    }
+
+    #main-page #cover .cover-content h1 {
+        font-size: 30px;
+    }
+
+    #main-page #cover .cover-content a {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #main-page #cover .cover-content p {
+        font-family: 18px;
+        margin: 0;
     }
 }
